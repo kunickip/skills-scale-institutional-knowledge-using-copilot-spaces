@@ -14,8 +14,10 @@ After each sprint, release, or important milestone. Also after incidents.
 
 ## Running a Retrospective
 - Timebox: 45–75 minutes depending on team size
+- Include all relevant roles (Developers, QA, UX Designer, etc.) to get diverse perspectives
 - Use an anonymous idea board if needed to encourage candor
 - Prioritize 2–3 top action items to avoid overload
+- Ensure cross-functional hand-offs and collaboration patterns are discussed
 
 ## Tracking Improvements
 - Add action items to the project backlog or issues with clear owners and timelines
