@@ -15,13 +15,20 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+  - Security Lead reviews PRs with security implications
+  - UX Designer reviews PRs with UI/UX changes for design fidelity
+- Documentation workflow:
+  - Technical Writer reviews feature documentation and user-facing content
+  - Update relevant docs and help content as part of feature delivery
 
 ## Quality & Testing
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
-- Security scanning in CI
+- Security scanning in CI (monitored by Security Lead)
+- Usability testing with UX Designer for major UI changes
 - Manual QA for feature acceptance when needed
+- Documentation review by Technical Writer for accuracy and completeness
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,12 +36,16 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- **Level 1**: Team-level triage in daily standup
+- **Level 2**: PM escalates to Product Lead and dependent teams
+- **Level 3**: Sponsor-level escalation for business-impacting issues
+- **Security escalation**: Security Lead coordinates security-related issues with appropriate stakeholders and follows security incident procedures
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Design reviews scheduled with UX Designer for UI features
+- [ ] Documentation plan in place with Technical Writer
+- [ ] Security review process established with Security Lead

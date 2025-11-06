@@ -20,9 +20,11 @@ Maintain a simple table with:
 - Monitor: review at weekly syncs and update status
 
 ## Stakeholder Communication
-- Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
+- Identify stakeholder groups and communication needs (e.g., engineering, sales, support, security)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Coordinate with Technical Writer for external communications and release announcements
+- Ensure Support Engineers are briefed before customer-facing releases
 
 ## Communication Templates
 Weekly Status Template:
@@ -38,5 +40,8 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- **Standard escalation**: Team-level -> PM -> Product Lead -> Sponsor
+- **Security incidents**: Follow the security incident runbook and notify Security Lead immediately
+- **Post-release issues**: Support Engineers triage and escalate to Release Manager or development team as needed
+- **Usability concerns**: UX Designer escalates critical usability issues that impact user experience
+- **Documentation gaps**: Technical Writer flags critical documentation needs to PM for prioritization
